@@ -233,12 +233,12 @@ cat > $NODE_HOME/relaynode1/${NODE_CONFIG}-topology.json << EOF
       {
         "addr": "127.0.0.1",
         "port": 3000,
-        "valency": 2
+        "valency": 1
       },
       {
         "addr": "127.0.0.1",
         "port": 3002,
-        "valency": 2
+        "valency": 1
       },
       {
         "addr": "relays-new.${NODE_URL}.iohk.io",
@@ -259,12 +259,12 @@ cat > $NODE_HOME/relaynode2/${NODE_CONFIG}-topology.json << EOF
       {
         "addr": "127.0.0.1",
         "port": 3000,
-        "valency": 2
+        "valency": 1
       },
       {
         "addr": "127.0.0.1",
         "port": 3001,
-        "valency": 2
+        "valency": 1
       },
       {
         "addr": "relays-new.${NODE_URL}.iohk.io",
@@ -285,12 +285,12 @@ cat > $NODE_HOME/${NODE_CONFIG}-topology.json << EOF
       {
         "addr": "127.0.0.1",
         "port": 3001,
-        "valency": 2
+        "valency": 1
       },
       {
         "addr": "127.0.0.1",
         "port": 3002,
-        "valency": 2
+        "valency": 1
       }
     ]
   }
